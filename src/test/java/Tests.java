@@ -18,6 +18,6 @@ public class Tests {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Netology"));
+                .body("data", equalTo("Netologa"));
     }
 }
